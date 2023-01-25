@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+</head>
+
+    <body>
+        
+        <form action="serverpage.php" method="post" enctype="multipart/form-data" novalidate>
+            <table>
+
+                <tr>
+                    <td><label for="username">User Name</label></td>
+                    <td><input type="text" name="User name" id="username" placeholder="Enter your Username"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Password">Password</label></td>
+                    <td><input type="Password" name="Password" id="Password" placeholder="Enter your password"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Email">Email</label></td>
+                    <td><input type="Email" name="" autocomplete="on" id="Email" placeholder="***@***.***"></td>
+                 </tr>
+
+                 <tr>
+                    <td><label for="Mobile">Mobile</label></td>
+                    <td><input type="tel" id="Mobile"></td>
+                 </tr>
+
+                 <tr>
+                    <td><label for="Age">Age</label></td>
+                    <td><input type="Nuber" value="" id=""></td>
+                 </tr>
+
+                 <tr>
+                    <td><label for="Gender">Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender" value="Male" id="Male"> <label for="Male">Male</label>
+                        <input type="radio" name="gender" value="Female" id="Female"> <label for="Female">Female</label>
+                    </td>
+                </tr>
+
+                 <tr>
+                    <td><label for="">Hobbie</label></td>
+                    <td>
+                        <input type="checkbox" name="chk[]" value="Travelling" id="Travelling"> <label for="Travelling">Travelling</label>
+                        <input type="checkbox" name="chk[]" value="Music" id="Music"> <label for="Music">Music</label>
+                        <input type="checkbox" name="chk[]" value="Reading" id="Reading"> <label for="Reading">Reading</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Color</label></td>
+                    <td><input type="color" name="" id=""></td>
+                </tr>   
+                <tr>
+                    <td><label for="Salery">Salery</label></td>
+                    <td><input type="Range" name="" id=""></td>
+                  </tr>
+
+                  <tr>
+                    <td><label for="">Meter</label></td>
+                    <td><meter id="fuel" min="0" max="100" low="30" high="60" optimum="80" value="20">
+                        at 50/100
+                    </meter>
+                  </tr>
+                  <tr>
+                    <td><label for="">City</label></td>
+                    <td>
+                        <select name="City" id="City">
+                        <option value="">Select City</option>
+                        <option value="1">Ahmedabad</option>
+                        <option value="2">Surat</option>
+                        <option value="3">Baroda</option>
+                        <option value="4">Rajkot</option>
+                    </td>
+                  </tr>
+
+                  <tr>
+                <td><label for="">Quanlification</label></td>
+                <td>
+                    <select name="edu" id="edu" multiple>
+                        <option value="1">10th</option>
+                        <option value="2">12th</option>
+                        <option value="3">BSC</option>
+                        <option value="4">MSC</option>
+                        <option value="5">Bcom</option>
+                        <option value="6">Mcom</option>
+                        <option value="7">Mphill</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Address</label></td>
+                <td>
+                    <textarea name="" id="" cols="50" rows="3"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">DOB</label></td>
+                <td>
+                    <input type="date" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Month</label></td>
+                <td>
+                    <input type="month" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">week</label></td>
+                <td>
+                    <input type="week" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">url</label></td>
+                <td>
+                    <input type="url" name="" id="">
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label for="">profile pic</label></td>
+                <td>
+                    <input type="file" name="" id="">
+                
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="ice-cream-choice">Choose a flavor:</label></td>
+                <td>
+                    <input list="juice-flavors" id="juice-choice" name="juice-choice">
+                    <datalist id="juice-flavors">
+                        <option value="Custord Apple">
+                        <option value="Coconut">
+                        <option value="Chickoo">
+                        <option value="Strawberry">
+                        <option value="Pineapple">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Disable</label></td>
+                <td>
+                    <input type="text" disabled name="disabled" value="Anything" id="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Readonly</label></td>
+                <td>
+                    <input type="text" readonly name="disabled" value="Anything" id="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Disable</label></td>
+                <td>
+                    <input type="button" disabled name="disabled" value="Anything" id="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td><label for=""></label></td>
+                <td><input type="submit" value="Save" name="" value="" id=""></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </table>
+        </form>
+    </body>
+    
+    </html>
