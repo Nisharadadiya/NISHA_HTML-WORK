@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map Generator</title>
+</head>
+
+<body>
+
+    <h2>image-map</h2>
+
+    <img src="../../Administrative_map_of_Gujarat.png" alt="">
+
+    <h2>image with image map</h2>
+    <img src="Administrative_map_of_Gujarat.png" usemap="#image-map">
+
+    <map name="image-map">
+        <area target="_blank" alt="Amreli" title="Amreli" href="https://en.wikipedia.org/wiki/Amreli" coords="453,516,428,521,447,547,450,583,444,601,471,618,494,641,501,666,542,649,562,638,561,620,549,588,555,574,546,550,549,532,535,505,525,493,529,475,513,468,499,473,487,478,478,487,481,499,469,508" shape="poly">
+        <area target="_parent" alt="Ahmedabad" title="Ahmedabad" href="https://en.wikipedia.org/wiki/Ahmedabad" coords="618,280,713,362" shape="rect">
+        <area target="_top" alt="Surat" title="Surat" href="https://en.wikipedia.org/wiki/Surat" coords="777,589,41" shape="circle">
+    </map>
+    
+</body>
+</html>
