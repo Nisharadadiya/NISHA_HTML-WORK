@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent Sibling Selectors</title>
+</head>
+<style>
+    .heading{margin-block-end: 0em;}
+</style>
+
+<style>
+    h2+p{font-size: 15px;
+    margin-block-start: 0;
+    }
+</style>
+<body>
+
+    <h1>Adjacent Sibling Selectors(+)</h1>
+
+    <p>The adjacent sibling selector is used to select an element that is directly after another specific element. Sibling elements must have the same parent element, and "adjacent" means "immediately following".</p>
+    
+    <h2 class="heading">Apple</h2>
+    <p>Think Different</p>
+    <h2 class="heading">Apple</h2>
+    <label for="">Testing</label>
+    <p>Think Different</p>
+
+
+</body>
+</html>
