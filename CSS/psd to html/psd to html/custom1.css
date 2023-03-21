@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.top-header{
+    
+     background-color: rgba(187, 52, 137, 0.804);
+  
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header1 li{
+    display: inline-block;
+    
+
+}
+.row li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.d-flex{
+    justify-content: space-between;
+}
