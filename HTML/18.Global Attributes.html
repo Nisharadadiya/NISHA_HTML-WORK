@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Attributes</title>
+</head>
+<body>
+
+    <h2>accesskey</h2>
+
+    <p>Provides a <strong>Hint</strong> for generating a keyboard shortcut for the current element. This attribute consists of a space-separated list of characters. The browser should use the first one that exists on the computer keyboard layout.</p>
+
+    <a accesskey="G" href="https://www.google.com">Google</a>
+    <a accesskey="Y" href="https://www.yahoo.com">Yahoo</a>
+
+    <h2>enterkeyhint</h2>
+
+    <p>Specifies a shortcut key to activate/focus an element</p>
+
+    <a contenteditable accesskey="h" title="shortcut alt+h" href="http://www.google.com">Google</a>
+
+    <h2>dir</h2>
+
+       <p>ltr, which means left to right and is to be used for languages that are written from the left to the  right (like English);
+        rtl, which means right to left and is to be used for languages that are written from the right to the left (like Arabic);
+        auto, which lets the user agent decide. It uses a basic algorithm as it parses the characters inside the element until it finds a character with a strong directionality, then it applies that directionality to the whole element.</p>
+
+    <input type="text" dir="rtl" placeholder="direction right to left">
+    <input type="text" dir="ltr" placeholder="direction left to right">
+
+    <h2>Hidden</h2>
+    <p>The hidden attribute is used to indicate that the content of an element should not be presented to the user.</p>
+
+    <p hidden>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione consequuntur consequatur laborum adipisci odio aspernatur illum perferendis delectus dolore. Architecto reiciendis similique perspiciatis obcaecati. Rerum delectus possimus molestiae quos sapiente.</p>
+
+    <h2 title="advisory">Title</h2>
+    <p title="nisha">The title global attribute contains text representing advisory information related to the element it belongs to.</p>
+
+    <h2>Style</h2>
+    <p style="background-color: cadetblue;">The style global attribute contains CSS styling declarations to be applied to the element. Note that it is recommended for styles to be defined in a separate file or files. This attribute and the style element have mainly the purpose of allowing for quick styling.</p>
+
+    <h2>Tabindex</h2>
+    <p>The tabindex global attribute allows developers to make HTML elements focusable, allow or prevent them from being sequentially focusable...tabindex we can set orderwise like which place we have to move cursor 1st 2nd and so on </p>
+    
+    <input type="text" tabindex="1">
+    <input type="text" tabindex="3">
+    <input type="text" tabindex="2">
+
+    <h2>contenteditable</h2>
+    <p contenteditable="true">The contenteditable global attribute is an enumerated attribute indicating if the element should be editable by the user. If so, the browser modifies its widget to allow editing.</p>
+
+    <cite contenteditable="true">-- Write your own name here</cite>
+
+    <h2>autocapitalize</h2>
+    
+    <p>The autocapitalize global attribute is an enumerated attribute that controls whether and how text input is automatically capitalized as it is entered/edited by the user.The HTML autocapitalize attribute is used to define whether the text present inside the HTML element should be automatically capitalized or not. It is a global attribute that means it is applied to all HTML elements.</p>
+
+    <form method="get">
+        <input type="text" autocapitalize="on" autocomplete="off" placeholder="Enter User Name without Autocomplete"
+            name="username" id="username">
+        <!-- <input type="text" autocapitalize="on" autofocus autocomplete="on"
+            placeholder="Enter User Name with Autocomplete" name="username" id="username"> -->
+
+        <input type="submit" autocapitalize="on" name="" id="">
+    </form>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
