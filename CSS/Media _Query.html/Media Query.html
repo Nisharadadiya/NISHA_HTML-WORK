@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+</head>
+
+<style>
+     *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+        
+     }
+     .container{
+        width: 100%;
+        margin:0 auto;
+
+     }
+     .row{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+     }
+     .col {
+       width: 25%;
+       display: flex;
+       justify-content: center;
+}
+    .col img{
+         width:100%;
+         height: auto;
+}
+@media only screen and (max-width: 1200PX) {
+    .col {
+        width: 33.33%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .col {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .col {
+        width: 100%;
+    }
+}
+</style>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col"><img src="bgimage1.jpeg" alt=""></div>
+            <div class="col"><img src="bgimage2.jpeg" alt=""></div>
+            <div class="col"><img src="bgimage3.jpeg" alt=""></div>
+            <div class="col"><img src="bgimage4.jpeg" alt=""></div>
+        </div>
+    </div>
+    
+</body>
+</html>
