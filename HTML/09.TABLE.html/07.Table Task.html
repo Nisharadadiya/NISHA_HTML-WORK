@@ -7,29 +7,40 @@
     <title>Table Task</title>
 </head>
 <body>
-    <table border="1" cellpadding="5px" cellspacing="5px">
+    <table border="1" cellpadding="5px" cellspacing="0" align="center">
         
-            <caption><h3>Example:Nested</h3></caption>
+            <caption>Example:Nested</caption>
         
         <tr>
-            <th rowspan="3" colspan="2">C1</th>
-            <th rowspan="3">All Genders</th>
-            
+            <th rowspan="2" colspan="2">C1</th>
+            <th rowspan="2">All<br>Genders</th>
             <th colspan="2">By Gender</th>
         </tr>
         <tr>
-            <th>Males</th>
-            <th>Females</th>
+            <td>
+                <table border="2px">
+
+                <tr>
+
+                    <th>Males</th>
+                    <th>Females</th>
+                </tr>
+
+                    <tr>
+                        <td>9215604</td>
+                        <td>4512358</td>
+                    </tr>
+
+                </table>
+            </td>
+           
         </tr>
-        <tr>
-            <td>9215604</td>
-            <td>4512358</td>
-        </tr>
+        
         <tr>
             <th>Rural</th>
             <td align="center">6521458</td>
             <td align="center">4215389</td>
-            <td colspan="2" align="center">4152348</td>
+            <td align="center">4152348</td>
         </tr>
     </table>
 </body>
