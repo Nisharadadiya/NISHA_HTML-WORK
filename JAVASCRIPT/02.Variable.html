@@ -11,44 +11,64 @@
     <p>store data in variable for make some operations</p>
     <p>Varaible => vari+able</p>
     <p>Varaible is a container</p>
+    
 
     <ul>
         <li>let</li>
+        <p>let keyword removes the confusion and error of var. It is the new and recommended way of declaring variables in JavaScript.</p>
+
         <li>var</li>
+        <p>var keyword is used to declare variables since JavaScript was created. It is confusing and error-prone when using variables declared using var.</p>
+
         <li>const</li>
+        <p>const keyword is used to declare a constant variable that cannot be changed once assigned a value.</p>
     </ul>
     <p>variable start with aplha val only</p>
+
     <p>variable not allowed start with number and spec sym like @!%$ </p>
+
     <p>variable not allows space</p>
+
     <p>variable _ allowed</p>
+
+    <p>Variable names are case-sensitive in JavaScript. So, the variable names msg, MSG, Msg, mSg are considered separate variables. Variable names can contain letters, digits, or the symbols $ and _. A variable name cannot start with a digit 0-9.  A variable name cannot be a reserved keyword in JavaScript, e.g. var, function, return cannot be variable names.</p>
 </body>
 <script>
 
-    //  var username_var = "hello" // declaration with default value
+    //     var username_var = "hello" // declaration with default value
     //     console.log(username_var);
      
-    //  var username_var = "hello update"// re-declaration with default value
+    //    var username_var = "hello update"// re-declaration with default value
     //    console.log(username_var);
 
     //    username_var = "change"
     //    console.log(username_var);
      
-    //  let username = "hello"// declaration with default value
-    //  console.log(username);
+    //     let username = "hello"// declaration with default value
+    //     console.log(username);
 
-    //  let username = "hello update" //re-declaration with default value not allowed in let 
-    //  console.log(username);
-
-    //  username ="data"// re-assignment
-    //  console.log(username);
+    //     let username = "hello update" //re-declaration with default value not allowed in let 
+    //     console.log(username);
+ 
+    //     username ="Nisha"// re-assignment
+    //     console.log(username);
      
-      const username_const = "Test" // declaration with default value
-        console.log(username_const);
+    //     const username_const = "Test" // declaration with default value
+    //     console.log(username_const);
 
-        var username_const = "Test update" // re-declaration with default value not allowed
-        console.log(username_const);
+    //     var username_const = "Test update" // re-declaration with default value not allowed
+    //     console.log(username_const);
         
-        username_const = "change" // re-assignment not allowed
-        console.log(username_const);
+    //     username_const = "change" // re-assignment not allowed
+    //     console.log(username_const);
+
+    //Another const example//The value of a constant variable cannot be changed but the content of the value can be changed. For example, if an object is assigned to a const variable then the underlying value of an object can be changed.//
+
+    const person = { name: 'Nisha'}
+
+    person.name = "Ratri"
+
+    console.log(person.name);
+
 </script>
 </html>
