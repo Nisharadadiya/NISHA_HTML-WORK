@@ -43,18 +43,21 @@
             DispDiv = document.getElementsByClassName("result")
 
 
-            if(marks >= 0 && marks <= 100){
-                if (Marks >= 34)
-                // DispDiv[0].innerHTML = "pass"
-                console.log("Pass");
-            }
-            // else{
-            //     // DispDiv[0].innerHTML = "fail"
-            //     console.log("fail");
+            // if(marks >= 0 && marks <= 100){
+                // console.log("Pass");
+
+                if (Marks >= 34){
+                DispDiv[0].innerHTML = "pass"
                 
-            }
+                }
+                else
+                
+               {
+
+                DispDiv[0].innerHTML = "fail"
+               }
             
-        })
+        )
     </script>
 </body>
 </html>
