@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            border: 1px solid black;
+        }
+        .wrapper{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            grid-auto-rows: minmax(130px,auto);
+            gap: 10px;
+        }
+        .one{
+            background-color: blue;
+            grid-column: 1;
+            grid-row: 1;
+        }
+        .two{
+            background-color: rgb(36, 206, 206);
+            grid-column: 2;
+            grid-row: 1;
+        }
+        .three{
+            background-color: rgb(47, 217, 95);
+            grid-column: 3;
+            grid-row: 1;
+        }
+        .four{
+            background-color: rgb(172, 31, 118);
+            grid-column: 4;
+            grid-row: 1/3;
+        }
+        .five{
+            background-color: rgb(209, 210, 119);
+            grid-column: 5;
+            grid-row: 1;
+        }
+        .six{
+            background-color: rgb(13, 71, 8);
+            grid-column: 1;
+            grid-row: 2;
+        }
+        .seven{
+            background-color: rgb(207, 134, 193);
+            grid-column: 2/4;
+            grid-row: 2;
+        }
+        .eight{
+            background-color: aquamarine;
+            grid-column: 5;
+            grid-row: 2;
+        }
+        .nine{
+            background-color: aquamarine;
+            grid-column: 1;
+            grid-row: 3;
+        }
+        .ten{
+            background-color: rgb(98, 133, 160);
+            grid-column: 2;
+            grid-row: 3/5;
+        }
+        .eleven{
+            background-color: rgb(141, 81, 197);
+            grid-column: 3;
+            grid-row: 3;
+        }
+        .twelve{
+            background-color: rgb(123, 189, 115);
+            grid-column: 4;
+            grid-row: 3;
+        }
+        .thirteen{
+            background-color: darkcyan;
+            grid-column: 3/5;
+            grid-row: 4;
+
+        }
+        .fourteen{
+            background-color: rgb(211, 206, 45);
+            grid-column: 5;
+            grid-row: 4;
+        }
+        .fifteen{
+            background-color: rgb(84, 16, 173);
+            grid-column: 1;
+            grid-row: 5;
+        }
+        .sixteen{
+            background-color: brown;
+            grid-column: 2;
+            grid-row: 5;
+        }
+        .seventeen{
+            background-color: rgb(6, 64, 86);
+            grid-column: 3;
+            grid-row: 5;
+        }
+        .eighteen{
+            background-color: rgb(243, 8, 200);
+            grid-column: 4;
+            grid-row: 5;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="one">one</div>
+        <div class="two">two</div>
+        <div class="three">three</div>
+        <div class="four">four</div>
+        <div class="five">five</div>
+        <div class="six">six</div>
+        <div class="seven">seven</div>
+        <div class="eight">eight</div>
+        <div class="nine">nine</div>
+        <div class="ten">ten</div>
+        <div class="eleven">eleven</div>
+        <div class="twelve">twelve</div>
+        <div class="thirteen">thirteen</div>
+        <div class="fourteen">fourteen</div>
+        <div class="fifteen">fifteen</div>
+        <div class="sixteen">sixteen</div>
+        <div class="seventeen">seventeen</div>
+        <div class="eighteen">eighteen</div>
+
+    </div>
+</body>
+</html>
